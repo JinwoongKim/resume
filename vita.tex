@@ -1,0 +1,300 @@
+\documentclass[margin,line]{res}
+\usepackage{times}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=5.2in
+\itemsep=0in
+\parsep=0in
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\name{Jinwoong Kim\vspace*{.1in}}
+
+\begin{resume}
+
+\section{\sc Contact Information}
+\vspace{.05in}
+
+\begin{tabular}{@{}p{3.5in}p{3in}}
+Naver Green Factory, 6, Buljeong-ro, Bundang-gu & {\it http://} github.com/jinwoongkim \\
+Seongnam-si, Gyeonggi-do, 13561, South Korea & {\it E-mail:}  aragnom@gmail.com \\
+\end{tabular}
+
+\section{\sc Experience}
+{\bf Machine Learning Research Engineer at Naver Corp.} \hfill {\it Sep 2017 - Present} \\
+Full time (Ai Suite team, System&Solution) \\
+- Developed a monitoring system that monitors the multi-tenant GPU cluster and machine learning workloads using Nvidia DCGM (Data Center GPU Managers) \\
+- To maximize the GPU utilization, developed a GPU sharing services using Nvidia MPS so that multi-tenants can run their jobs together on the same GPU\\
+- Developed a Kubernetes-based multi-tenant GPU clusters\\
+
+{\bf Machine Learning Research Engineer at Naver Corp.} \hfill {\it Sep 2017 - June 2019} \\
+Full Time, (NSML team, Clova AI)  \\
+- Developed AutoML framework that tunes hyper-parameter automatically on the multi-tenant GPU cluster \\
+-- Published a paper and demonstrated at Sysml2019 \\
+-- Presented at Deview 2018 \\
+- Developed scheduler and monitoring systems for NSML which is a machine learning framework for a multi-tenant GPU cluster \\
+-- Published papers \\
+- Setup visualization panels using ELK \\
+
+%\section{\sc Objective}
+%Seeking a position in the emerging field of high performance systems
+%Seeking a project lead position in the emerging field of
+%high performance systems
+
+\section{\sc Education}
+
+{\bf Ms-Ph.D Program in Computer Science and Engineering} \hfill {\it Mar 2011 - Aug 2017 } \\
+{\em Ulsan National Institute of Science and Technology (UNIST)}\\
+{\em Thesis Title : "Exploiting Graphics Processing Units for Massively Parallel \\ Multi-Dimensional Indexing"} \\
+\vspace{.2in}
+{\em Advisor : Prof. Beomseok Nam} \\
+{\bf B.S. in Computer Engineering} \hfill {\it Mar 2005 - Feb 2011 } \\
+{\em Chungbuk National University, South Korea}
+\vspace{.05in}
+
+\section{\sc Research Interests}
+Database Systems\\
+Distributed and Parallel Systems \\
+Parallel Multi-dimensional Indexing on the GPU\\
+%Distributed Semantic Caching Frameworks\\
+Non-Volatile Memory based Logging\\
+%Distributed Graph Processing Systems\\
+Automatic Machine Learning\\
+Large Scale Cluster Scheduler\\
+Machine Learning Platform\\
+
+\section{\sc Journal Reviewing Activites}
+
+\begin{enumerate}
+
+\item ACM Transactions on Storage (TOS), 2019
+\item IEEE Transactions on Knowledge and Data Engineering (TKDE), 2018
+
+\end{enumerate}
+
+\section{\sc Academic/\\Research Experience}
+
+{\bf Research Intern}  \\
+{Carnegie Mellon University, Pittsburgh, PA, USA(Prof. Andrew Pavlo)} \hfill {\it May - Aug, 2015}\\
+Designed and developed the in-memory database system, {\it Peloton}
+\begin{list2}
+\item Implemented the Catalog, DDL, DML, Bootstrap, Logging, etc.
+\item Designed the non-volatile memory based logging, {\it Write-Behind Logging}, VLDB, 2016.
+\end{list2}
+
+{\bf Visiting Research Scholar}  \\
+{University of California Berkeley, Berkeley, CA, USA(Prof. Ikhlaq Sidhu)} \hfill {\it Nov 2015 - Jan 2016}\\
+
+{\bf Research Assistant}  \\
+{\it Data Intensive Computing Lab, UNIST} \hfill  {\it Spring 2011 - Fall 2017}\\
+\begin{list2}
+\item Designed and implemented parallel indexing schemes for multi-dimensional range query processing on the GPU 
+\item Implemented a distributed semantic caching framework for MapReduce
+\item Worked on multi-dimensional query processing with distributed cache infrastructure in cloud environments
+\item Implemented non-volatile memory based {\it Heap manager} to improve logging performance for SQLite
+\end{list2}
+
+{\it Korea Institute of Science and Technology Information (KISTI) } \hfill  {\it May 2015 - Nov 2015}\\
+\begin{list2}
+\item Designed and implemented the GPU-based multi-dimensional indexing for {\it GLOVE}
+\end{list2}
+
+{\it LG Electronics (CTO)} \hfill  {\it Jan 2015 - Jun 2015}\\
+\begin{list2}
+\item Worked on multi-thread query processing for SQLite.
+\end{list2}
+
+{\bf Teaching Assistant} \\
+%\hspace*{\fill}
+\vspace{-.1in}
+\begin{list2}
+\item {TA for Prof. Beomseok Nam, Object-Oriented Programming } \hfill {\it Spring 2014}
+\item {TA for Prof. Beomseok Nam, Advanced Programming } \hfill {\it Fall 2013}
+\item {TA for Prof. Beomseok Nam, Introduction to Database Systems } \hfill{\it Winter 2012}
+\item {TA for Prof. Tsz-Chiu Au, Engineering Programming } \hfill {\it Fall 2012}
+\item {TA for Prof. Young-ri Choi, Engineering Programming } \hfill {\it Spring 2012}
+\item {TA for Prof. Beomseok Nam, Engineering Programming } \hfill {\it Fall 2011}
+\end{list2}
+
+\section{\sc Honors and Awards}
+
+{\bf Naver WoW Project 2nd Prize, Naver Corp.\hfill {\it 2019} \\
+{\bf Naver PhD Fellowship}, Naver Corp.\hfill {\it 2016} \\
+{\bf Prof. Ram Kumar Fellowships at ICDE}, Ramkumar Foundation.\hfill {\it 2015} \\
+{\bf Merit-based Scholarship}, Chungbuk National University \hfill {\it Spring 2009} \\
+{\bf Merit-based Scholarship}, Chungbuk National University \hfill {\it Fall 2008} 
+
+\section{\sc Publications and Preprints}
+
+\begin{enumerate}
+
+\item[16] Heungseok Park, {\bf Jinwoong Kim}, Minkyu Kim, Ji-Hoon Kim, Jaegul Choo,
+Jung-Woo Ha, and Nako Sung ``VisualHyperTuner: Visual Analytics for User-Driven
+Hyperparameter Tuning of Deep Neural Networks'', 2nd SysML Conference {\bf
+(SysML)}, Demo, Stanford, CA, USA, Apr. 2019.
+
+\item[15] {\bf Jinwoong Kim}, Minkyu Kim, Heungseok Park, Ernar Kusdavletov,
+Dongjun Lee, Adrian Kim, Ji-Hoon Kim, Jung-Woo Ha, and Nako Sung ``CHOPT :
+Automated Hyperparameter Optimization Framework for Cloud-Based Machine
+Learning Platforms'', arXiv:1810.03527, 2018
+
+\item[14] Hanjoo Kim, Minkyu Kim, Dongjoo Seo, {\bf Jinwoong Kim}, Heungseok Park, Soeun
+Park, Hyunwoo Jo, KyungHyun Kim, Youngil Yang, Youngkwan Kim, Nako Sung, and
+Jung-Woo Ha ``NSML: Meet the MLaaS platform with a real-world case study'',
+arXiv:1810.09957, 2018
+
+\item[13] {\bf Jinwoong Kim} and Beomseok Nam,
+``Co-Processing Heterogeneous Parallel Index for Multi-Dimensional Datasets'',
+Journal of Parallel and Distributed Computing{\bf(JPDC)}, Vol. 113, pp 195-203,
+Mar. 2018.
+
+\item[12] Nako Sung, Minkyu Kim, HyunWoo Jo, Youngil Yang, {\bf Jinwoong Kim},
+Leonard Lausen, Youngkwan Kim, Gayoung Lee, Donghyun Kwak, Jung-Woo Ha, and
+Sung Kim, ``NSML: A Machine Learning Platform That Enables You to Focus on Your
+Models'', ML System Workshop at NIPS, 2017
+
+\item[11] Wook-Hee Kim, Jihye Seo, {\bf Jinwoong Kim}, and Beomseok Nam,
+``clfB-tree: Cacheline Friendly Persistent B-tree for NVRAM'', To appear in ACM
+Transactions on Storage{\bf (TOS)}, Special issue on NVM and Storage, 2017.
+
+\item[10] Moohyeon Nam, {\bf Jinwoong Kim}, Beomseok Nam ``Parallel Tree
+Traversal for Nearest Neighbor Query on the GPU'' 45th International Conference
+on Parallel Processing {\bf (ICPP)}, Philadelphia, PA, USA, Aug. 2016.
+
+\item[9] Wookhee Kim, {\bf Jinwoong Kim}, Woongki Baek, Beomseok Nam and Youjip
+Won ``NVWAL: Exploiting NVRAM in Write-Ahead-Logging '' 21st International
+Conference on Architectural Support for Programming Languages and Operating
+Systems {\bf(ASPLOS)}, Atlanta, GA, USA, Apr. 2016
+
+\item[8] {\bf Jinwoong Kim}, Sehoon Lee, Joong-Youn Lee, Beomseok Nam, Min Ah
+Kim ``GLOVE: An Interactive Visualization Service Framework with
+Multi-Dimensional Indexing on the GPU '' 27th International Conference for High
+Performance Computing, Networking, Storage and Analysis{\bf (SC)}, Poster,
+Austin, TX, Nov. 2015.
+
+\item[7] {\bf Jinwoong Kim}, Won-Ki Jeong, and Beomseok Nam ``Exploiting
+Massive Parallelism for Indexing Scientific Datasets on the GPU'' IEEE
+Transactions on Parallel and Distributed Systems{\bf (TPDS)}, Vol. 26, No. 8,
+pp 2258-2271, Aug. 2015. {\bf (Selected as the featured paper of Aug. 2015
+issue)}
+
+\item[6] Youngmoon Eom, {\bf Jinwoong Kim}, and Beomseok Nam
+``Multi-dimensional Multiple Query Scheduling with Distributed Semantic Caching
+Framework'' Cluster Computing, Vol. 18, No. 3, pp 1141-1156, Springer, Jun. 2015.
+
+\item[5] Youngmoon Eom, {\bf Jinwoong Kim}, Deukyeon Hwang, Jaewon Kwak, Minho
+Shin, Beomseok Nam ``Improving Multi-dimensional Query Processing with Data
+Migration in Distributed Cache Infrastructure'', 21st IEEE International
+Conference on High Performance Computing (HiPC 2014)(23\% a/r). Goa, India, Dec. 2014.
+
+\item[4] Youngmoon Eom, Jonghwan Moon, {\bf Jinwoong Kim}, Beomseok Nam,
+``Collaborative Multi-dimensional Dataset Processing with Distributed Cache
+Infrastructure in the Cloud'', 2nd International Workshop on Autonomic
+Management of Grid and Cloud Computing (AMGCC'14) (in conjunction with IEEE CAC
+2014), London, UK, Sep. 2014.
+
+\item[3] {\bf Jinwoong Kim}, Sul-Gi Kim, Beomseok Nam, ``Parallel
+Multi-dimensional Range Query Processing with R-Trees on GPU'', Journal of
+Parallel and Distributed Computing {\bf (JPDC)}, Vol. 73, Issue 8, 1195-1207,
+Elsevier, Aug, 2013.
+
+\item[2] Beomseok Nam, Deukyeon Hwang, { \bf Jinwoong Kim}, and Minho Shin,
+``High-Throughput Distributed Query Scheduling with EMA-based Statistical
+Prediction'', Special Issue on Data Intensive eScience, Distributed and
+Parallel Databases, Vol. 30, issue 5--6, pp 401-414, Springer, Jun. 2012.
+
+\item[1] {\bf Jinwoong Kim}, Sumin Hong, and Beomseok Nam ``A Performance
+Study of Traversing Spatial Indexing Structures in Parallel on GPU'', 3rd
+International Workshop on Frontier of GPU Computing (FGC), in conjunction with
+HPCC 2012, Liverpool, UK, Jun. 2012.
+
+\end{enumerate}
+
+\section{\sc Invited Talks}
+
+\begin{enumerate}
+
+\item[4]  Naver AI Techtalk, UNIST, South Korea, Dec. 2019.
+
+\item[3]  "NSML: Machine learning as a platform \& Automize Model Tuning" DEVIEW, South Korea, Oct. 2018.
+
+\item[2]  "NSML: A Machine Learning Platform That Enables You to Focus on Your
+Models" The 9th Asian Conference on Machine Learning {\bf (ACML)}, Poster, South Korea, Nov. 2017.
+
+\item[1] "Exploiting Massive Parallelism for Indexing Multi-dimensional
+Datasets on the GPU" Parallel Data Lab {\bf (PDL)} at CMU, Pittsburgh, PA, USA, Aug.
+2015.
+
+\end{enumerate}
+
+
+\section{\sc Skills}
+\begin{list2}
+\item Programming Languages : \\
+   C/C++/C\#, Python, CUDA, Go\\
+\item Libraries, and Knowledge: \\
+   SQL, MPI, Docker, Nvidia MPS, DCGM \\
+	Linux, Git, LaTex, ELK, Yarn, Kubernetes \\
+\end{list2}
+
+\section{\sc References}
+
+\begin{list2}
+\item {\bf Beomseok Nam}\\
+Associate professor \\
+College of Software \\
+Sungkyunkwan University, Suwon, South Korea \\
+E-mail: bnam@skku.edu\\
+
+%Department of Computer Science and Engineering \\
+%School of Electrical and Computer Engineering\\
+%Ulsan National Institute of Science and Technology(UNIST), Ulsan, South Korea \\
+%E-mail: bsnam@unist.ac.kr\\
+
+\item {\bf Won-Ki Jeong}\\
+Associate professor \\
+Department of Computer Science and Engineering \\
+Korea University, Seoul, South Korea \\
+E-mail: wkjeong@korea.ac.kr \\
+
+\item {\bf Woongki Baek}\\
+Associate Professor\\
+Department of Computer Science and Engineering \\
+School of Electrical and Computer Engineering\\
+Ulsan National Institute of Science and Technology (UNIST), Ulsan, South Korea \\
+E-mail: wbaek@unist.ac.kr \\
+
+\item {\bf Andrew Pavlo}\\
+Assistant Professor\\
+Department of Computer Science\\
+Carnegie Mellon University, Pittsburgh, USA\\
+E-mail: pavlo@cs.cmu.edu\\
+\end{list2}
+
+
+\noindent
+{\em Last updated on} {\bf \today}
+
+\vspace*{.5in}
+
+\noindent
+
+\end{resume}
+\end{document}
+
+
